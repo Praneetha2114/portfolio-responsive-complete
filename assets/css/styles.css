@@ -203,27 +203,20 @@ a {
   color: var(--first-color);
 }
 .home__social {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* centers social icons horizontally */
-  margin-top: 1rem; /* optional: adds spacing below headline */
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    gap: 1rem; /* spacing between icons */
+    margin-top: 1rem; /* spacing below button */
 }
-
 .home__social-icon {
-  width: max-content;
-  margin-bottom: var(--mb-2);
-  font-size: 1.5rem;
-  color: var(--second-color);
+    font-size: 1.5rem;
+    color: #fff;
 }
 .home__social-icon:hover {
-  color: var(--first-color);
+    color: var(--first-color);
 }
-.home__img {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 260px;
-}
+
+
 .home__blob {
   fill: var(--first-color);
 }
