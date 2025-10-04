@@ -47,8 +47,10 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  color: var(--second-color);
+  color: #fff;       /* changed text color to white */
+  background-color: #000;  /* changed background to black */
 }
+
 
 h1, h2, p {
   margin: 0;
@@ -64,11 +66,6 @@ a {
   text-decoration: none;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
 
 /*===== CLASS CSS ===== */
 .section-title {
@@ -306,21 +303,7 @@ img {
   border-radius: 0.5rem;
 }
 
-/* ===== WORK =====*/
-.work__container {
-  row-gap: 2rem;
-}
-.work__img {
-  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
-  border-radius: 0.5rem;
-  overflow: hidden;
-}
-.work__img img {
-  transition: 1s;
-}
-.work__img img:hover {
-  transform: scale(1.1);
-}
+
 
 /* ===== CONTACT =====*/
 .contact__input {
