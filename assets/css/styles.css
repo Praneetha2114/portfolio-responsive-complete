@@ -181,9 +181,13 @@ a {
   row-gap: 5rem;
   padding: 4rem 0 5rem;
 }
-.home__data {
+
+ .home__data {
   align-self: center;
+  text-align: center; /* centers the button and text inside */
 }
+
+
 .home__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
@@ -201,7 +205,10 @@ a {
 .home__social {
   display: flex;
   flex-direction: column;
+  align-items: center; /* centers social icons horizontally */
+  margin-top: 1rem; /* optional: adds spacing below headline */
 }
+
 .home__social-icon {
   width: max-content;
   margin-bottom: var(--mb-2);
@@ -241,12 +248,19 @@ a {
 /* ===== ABOUT =====*/
 .about__container {
   row-gap: 2rem;
-  text-align: center;
+  text-align: center; /* centers text */
+  justify-items: center; /* centers items in grid */
+  
 }
 
 .about__subtitle {
   margin-bottom: var(--mb-2);
 }
+.about__subtitle,
+.about__text {
+  text-align: center;
+}
+
 .about__img {
   justify-self: center;
 }
